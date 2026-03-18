@@ -1,0 +1,17 @@
+scenario_name: "4v4 Equal Capability BVR Engagement"
+blue_force:
+  count: 4
+  formation: "line_abreast"
+  start_x_km: 0
+  start_y_km: [0, 15, -15, 30]
+  heading_deg: 0
+  velocity_ms: 550
+red_force:
+  count: 4
+  formation: "line_abreast"
+  start_x_km: 300
+  start_y_km: [0, 15, -15, 30]
+  heading_deg: 180
+  velocity_ms: 550
+engagement_area_km: 400
+time_limit_seconds: 600

@@ -1,0 +1,17 @@
+scenario_name: "Aggressive 4v4 Showdown (High Action)"
+blue_force:
+  count: 4
+  formation: "line_abreast"
+  start_x_km: 0
+  start_y_km: [0, 10, -10, 20]
+  heading_deg: 0
+  velocity_ms: 600
+red_force:
+  count: 4
+  formation: "line_abreast"
+  start_x_km: 80
+  start_y_km: [5, 15, -5, 25]
+  heading_deg: 180
+  velocity_ms: 600
+engagement_area_km: 150
+time_limit_seconds: 300
