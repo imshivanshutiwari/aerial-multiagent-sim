@@ -46,6 +46,7 @@ SCENARIO_DIR = Path(__file__).resolve().parents[1] / "data" / "scenario_configs"
 
 
 # ---- Cached runners ----
+@st.cache_data(show_spinner="Running 3D Tactical Simulation...")
 def _run_single(scenario_path: str, seed: int, dt: float):
     sc = Scenario(scenario_path)
     runner = SimulationRunner(dt=dt, history_period=5.0)
