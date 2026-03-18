@@ -135,10 +135,21 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 🎮 Run the Interactive Pygame Visualizer
-View the mathematical AI in real-time through the live engine. Includes an interactive main menu to select scenarios!
+### 🎮 unified Dual-Launch (Recommended)
+Launch both the Pygame Tactical Display AND the Streamlit Dashboard simultaneously with a single command:
+```bash
+python launch.py
+```
+
+### 💻 Run Individual Components
+**Interactive Pygame Menu:** View the mathematical AI in real-time.
 ```bash
 python main.py --pygame
+```
+
+**Streamlit Dashboard Server:**
+```bash
+streamlit run dashboard/app.py
 ```
 
 ### 🔬 Run Headless & Generate Reports
