@@ -11,5 +11,3 @@ reportlab>=4.0.0
 tqdm>=4.65.0
 PyPDF2>=3.0.0
 scholarly>=1.7.11
-gymnasium>=0.29.0
-stable-baselines3>=2.0.0
